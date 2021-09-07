@@ -22,6 +22,9 @@ component Main {
       <Link href="https://www.mint-lang.com/">
         "Learn Mint"
       </Link>
+
+      <CustomButton hrefbtn="https://www.youtube.com/watch?v=euQDAkiwM_I"/>
+
     </div>
   }
 }
