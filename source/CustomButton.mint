@@ -8,6 +8,7 @@ component CustomButton {
     font-weight: 100;
     color: #E06C75;
     text-decoration: none;
+    margin: 15px;
   }
 
   /*fun btnClicked : void {

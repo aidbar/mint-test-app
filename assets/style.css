@@ -1,3 +1,13 @@
 body {
   margin: 0;
 }
+
+.btn {
+  color: #E06C75;
+  border-color: #E06C75;
+}
+
+.btn:hover {
+  background-color: #e98890;
+  border-color: #E06C75;
+}

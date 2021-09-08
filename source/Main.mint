@@ -27,6 +27,8 @@ component Main {
 
       <CustomThingyWithEventHandling />
 
+      <BootstrapForm />
+
     </div>
   }
 }

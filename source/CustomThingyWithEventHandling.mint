@@ -6,7 +6,7 @@ component CustomThingyWithEventHandling {
     font-weight: 100;
     color: #E06C75;
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
   }
 
   fun render : Html {
