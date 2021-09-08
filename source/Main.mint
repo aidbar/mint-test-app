@@ -25,6 +25,8 @@ component Main {
 
       <CustomButton hrefbtn="https://www.youtube.com/watch?v=euQDAkiwM_I"/>
 
+      <CustomThingyWithEventHandling />
+
     </div>
   }
 }

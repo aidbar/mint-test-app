@@ -7,6 +7,7 @@ component CustomButton {
     font-style: italic;
     font-weight: 100;
     color: #E06C75;
+    text-decoration: none;
   }
 
   /*fun btnClicked : void {
@@ -14,7 +15,7 @@ component CustomButton {
   }*/
 
   fun render : Html {
-    <button::btncss>
+    <button>
         <a::btncss href="#{hrefbtn}"
         target="_blank">
             "Click ME!" 

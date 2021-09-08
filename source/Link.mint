@@ -6,6 +6,7 @@ component Link {
     font-size: calc(10px + 2vmin);
     text-decoration: none;
     color: #DDDDDD;
+    margin-bottom: 5px;
 
     &:hover {
       text-decoration: underline;
