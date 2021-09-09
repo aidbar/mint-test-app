@@ -89,7 +89,7 @@ component Main {
           Page::PageOne => <div>"This is page one"</div>
           Page::PageTwo => <div>"This is page two"</div>
           Page::PageThree => <div>"This is page three"</div>
-          Page::NewPage => <Link href="http://www.rrrgggbbb.com/">"A mystery link! :O"</Link>
+          Page::NewPage => <Link href="https://www.rrrgggbbb.com/">"A mystery link! :O"</Link>
         }
       </div>
 
