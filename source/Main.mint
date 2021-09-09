@@ -2,6 +2,7 @@ enum Page {
   PageOne
   PageTwo
   PageThree
+  NewPage
   NotFound
 }
 
@@ -24,6 +25,10 @@ routes {
 
   /three {
     Application.setPage(Page::PageThree)
+  }
+
+  /new {
+    Application.setPage(Page::NewPage)
   }
 
   / {
@@ -74,6 +79,7 @@ component Main {
           <a href="/two">"Page Two"</a>
           <a href="/three">"Page Three"</a>
           <a href="/srghr">"this one doesn't exist"</a>
+          <a href="/new">"Hmm, I wonder what's here?"</a>
         </div>
 
         <hr/>
@@ -83,6 +89,7 @@ component Main {
           Page::PageOne => <div>"This is page one"</div>
           Page::PageTwo => <div>"This is page two"</div>
           Page::PageThree => <div>"This is page three"</div>
+          Page::NewPage => <Link href="http://www.rrrgggbbb.com/">"A mystery link! :O"</Link>
         }
       </div>
 
