@@ -5,7 +5,7 @@ component Link {
   style link {
     font-size: calc(10px + 2vmin);
     text-decoration: none;
-    color: #DDDDDD;
+    /*color: #DDDDDD;*/
     margin-bottom: 5px;
 
     &:hover {

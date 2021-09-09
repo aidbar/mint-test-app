@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  color:white;
+  text-align: center;
 }
 
 .btn {
@@ -10,4 +12,9 @@ body {
 .btn:hover {
   background-color: #e98890;
   border-color: #E06C75;
+}
+
+a {
+  margin: 4px;
+  color: #E06C75;
 }
